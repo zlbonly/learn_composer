@@ -1,0 +1,22 @@
+{
+    "name": "zlb/learn_composer",
+    "description": "learn_composer",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "zhuliubao",
+            "email": "zhuliubaoonly@163.com"
+        }
+    ],
+
+    "minimum-stability": "dev",
+    "require": {},
+
+    "autoload": {
+        "psr-4": {
+            "Ford\\Escape\\": "src/Ford/Escape",
+            "Ford\\Fiesta\\": "src/Ford/Fiesta"
+        }
+    }
+}
